@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 0;
+}
+
+.w-100 {
+    width: 100%;
+    display: block;
+    maring: auto;
+}
+
+.header {
+    width: 100%;
+    display: block;
+    margin: auto;
+    background: #3b5998;
+    padding: 15px 0;
+}
+
+.header img {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.txtFacebook {
+    font-size: 30px;
+    color: #3b5998;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    display:block;
+    font-weight: bold;
+}
+
+.txtDesc {
+    width: 550px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    display: block;
+    text-align: center;
+    color: rgb(107, 107, 107);
+}
+
+.loginBox {
+    width: 280px;
+    max-width: 100%;
+    border: 1px solid rgb(206, 206, 206);
+    padding: 20px;
+    display: block;
+    margin: 40px auto;
+}
+
+.loginBox input{
+    width: 200px;
+    max-width: 190px;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.loginBox select {
+    border: 1px solid rgb(206, 206, 206);
+}
+
+button {
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    padding: 10px 0;
+    background: #3b5998;
+    border: 1px solid #3b5998;
+    color: #fff;
+    font-weight: bold;
+}
