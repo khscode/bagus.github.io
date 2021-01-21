@@ -34,13 +34,15 @@ body {
     font-size: 18px;
     text-align: cneter;
     font-weight: bold;
-    margin: 40px auto;
+    display: block;
+    margin: 20px auto;
 }
 
 .txt-3 {
     font-size: 18px;
     text-align: cneter;
-    margin: 40px auto;
+    display: block;
+    margin: auto;
 }
 
 .number {
@@ -57,7 +59,8 @@ body {
 .txt-4 {
     font-size: 18px;
     text-align: cneter;
-    margin: 40px auto;
+    display: block;
+    margin: 20px auto;
 }
 
 .accLogin {
