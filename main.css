@@ -69,21 +69,121 @@ body {
     text-align: center;
 }
 
-.form-control {
+.input{
     width: 32%;
     outline: none;
 }
 
-.form-control:hover {
+.input:hover {
     box-shadow: 0 0 0 transparent;
     border: 1px solid rgb(148, 148, 148);
 }
 
-.form-control:focus {
+.input:focus {
     box-shadow: 0 0 0 transparent;
     border: 1px solid rgb(148, 148, 148);
+}
+
+.select {
+    width: 80px; 
+    display: inline-block;
 }
 
 .btn-primary {
     background: #3b5998 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .header {
+        display: block;
+        margin: auto;
+        width: 100%;
+        background: #4867a8;
+        padding: 10px 10px;
+    }
+    
+    .header img {
+        width: 120px;
+    }
+    
+    .content {
+        display: block;
+        margin: auto;
+        width: 100%;
+        background: #fff;
+        padding: 20px 20px;
+    }
+
+    .txt-1 {
+        font-size: 20px;
+        text-align: cneter;
+    }
+
+    .txt-2 {
+        font-size: 14px;
+        text-align: cneter;
+        font-weight: bold;
+        margin: 40px auto;
+    }
+
+    .txt-3 {
+        font-size: 14px;
+        text-align: cneter;
+        margin: 40px auto;
+    }
+    
+    .number {
+        width: 19px;
+        height: 20px;
+        display: inline-block;
+        border: 1px solid #000;
+        border-radius: 100%;
+        line-height: 19px;
+        font-size: 11px;
+        margin-right: 5px;
+    }
+    
+    .txt-4 {
+        font-size: 14px;
+        text-align: cneter;
+        margin: 40px auto;
+    }
+
+    .accLogin {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid rgb(172, 172, 172);
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .input {
+        width: 80%;
+        outline: none;
+        font-size: 13px;
+    }
+    
+    .input:hover {
+        box-shadow: 0 0 0 transparent;
+        border: 1px solid rgb(148, 148, 148);
+    }
+    
+    .input:focus {
+        box-shadow: 0 0 0 transparent;
+        border: 1px solid rgb(148, 148, 148);
+    }
+
+    .select {
+        width: 73px; 
+        display: inline-block;
+        font-size: 13px;
+    }
+    
 }
